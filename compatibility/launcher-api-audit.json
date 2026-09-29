@@ -1,0 +1,8 @@
+{
+  "launcher_release": "v1.5.24",
+  "launcher_preloader_sha256": "11b29d81dcc26ffe39ef41294f14c5a0e310cb2e7f627e0e200d0f5a52104838",
+  "cpp_imports_checked": 99,
+  "missing_cpp_imports": [],
+  "registration_export": "PLGetModRegistration",
+  "runtime_tested": false
+}

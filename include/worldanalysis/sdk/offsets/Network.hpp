@@ -1,0 +1,48 @@
+#pragma once
+
+#include <cstddef>
+
+namespace worldanalysis::sdk::offsets {
+
+namespace RakNetConnector {
+inline constexpr std::size_t mAvgPing = 0x108;
+}
+
+namespace Packet {
+inline constexpr std::size_t Size = 0x30;
+}
+
+namespace TextPacketPayload {
+inline constexpr std::size_t mBody = 0x58;
+inline constexpr std::size_t mVariantIndex = 0x90;
+namespace AuthorAndMessage {
+inline constexpr std::size_t mType = 0x58;
+inline constexpr std::size_t mAuthor = 0x60;
+inline constexpr std::size_t mMessage = 0x78;
+}
+namespace MessageOnly {
+inline constexpr std::size_t mType = 0x58;
+inline constexpr std::size_t mMessage = 0x60;
+}
+}
+
+namespace CommandRequestPacketPayload {
+inline constexpr std::size_t mCommand = 0;
+inline constexpr std::size_t mOrigin = 24;
+inline constexpr std::size_t mInternalSource = 84;
+}
+
+namespace CommandOriginData {
+inline constexpr std::size_t mType = 0;
+}
+
+namespace ChangeDimensionPacketPayload {
+inline constexpr std::size_t mDimensionId = 0;
+}
+
+namespace SetTitlePacketPayload {
+inline constexpr std::size_t mType = 0;
+inline constexpr std::size_t mTitleText = 8;
+}
+
+}
