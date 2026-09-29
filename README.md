@@ -1,4 +1,5 @@
 # World Analysis
+Note: This entire Project was Vibecoded, this also means that it should be relatively easy for any AI to read through the files and create new types of Mods based off of this.
 
 World Analysis is an open-source native mod for Minecraft Bedrock on Android, built for LeviLauncher.
 
