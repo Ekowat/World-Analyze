@@ -4,6 +4,10 @@ World Analysis is an open-source native mod for Minecraft Bedrock on Android, bu
 
 It adds tools for inspecting the world, nearby mobs, blocks, updates, containers, and other in-game information.
 
+I hope this open source can prove useful in helping others create Levilauncher Mods. :P
+
+(Pssst, Techvfx has a lot of cool effects you can probably use or find useful in small things. :P )
+
 ## Features
 
 - Block and mob analysis
@@ -54,7 +58,6 @@ World Analysis is a modified derivative work based on **[BedrockTools](https://g
 
 BedrockTools is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. Its license and attribution are preserved in this repository. See [`NOTICE.md`](NOTICE.md) and [`LICENSE`](LICENSE).
 
-World Analysis is not affiliated with, endorsed by, or sponsored by BedrockTools, RadiantByte, or QYCottage.
 
 ## License
 
